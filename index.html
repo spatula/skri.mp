@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skrimp!</title>
+    <style>
+      /* 
+      Colors:
+        Blue: #2e2755;
+        Mauve: #af5463
+      */
+      body { font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif; font-size: 14px;}
+
+      img#tryskrimp { width: 300px; margin: 0 auto; display: block; }
+ 
+      a { border-radius: 3px; color: #2e2755; display: inline-block; padding: 5px; }
+      a:hover { border: 1px solid #2e2755; color: #fff; background: #af5463; }
+      a:active { position: relative; top: 1px; }
+
+      p#email { position: absolute; bottom: 10px; right: 30px; }
+    </style>
+  </head>
+  <body>
+
+    <img id="tryskrimp" src="tryskrimp.png" />
+    <p id="email"><a href="mailto:phillip@skri.mp">phillip@skri.mp</a></p>
+
+
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6176136-10']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </body>
+</html>
